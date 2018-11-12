@@ -1,0 +1,9 @@
+print("Input Califa")
+califa = float(input())
+while califa > 100:
+    print("No manches, eso ni se puede ponla bien")
+    califa = float(input())
+if califa <= 70:
+    print(str(califa) + str("?, te pases de lanza OBVIO reprobaste"))
+else:
+    print(str(califa) + str(", Ya la hiciste viejon"))

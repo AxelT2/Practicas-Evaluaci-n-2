@@ -1,0 +1,7 @@
+materias = True
+servicio = True
+residencias = True
+if materias == True and servicio == True and residencias == True:
+    print("Nombre, unos genios")
+else:
+    print("Tsssssss ya no te titulastes karnal")

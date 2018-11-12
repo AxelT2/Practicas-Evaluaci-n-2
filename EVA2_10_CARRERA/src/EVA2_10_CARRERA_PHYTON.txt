@@ -1,0 +1,13 @@
+materias = True
+if materias == True:
+    servicio = True
+    if servicio == True:
+        residencias = True
+        if residencias == True:
+            print("No pos ora si ya saliste ganando")
+        else:
+            print("Tsssss ya no te titulaste karnal")
+    else:
+        print("Tsssss ya no te titulastes karnal")
+else:
+    print("Tsssss ya no te titulastes karnal")

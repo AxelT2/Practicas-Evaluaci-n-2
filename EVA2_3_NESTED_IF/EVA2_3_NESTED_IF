@@ -1,0 +1,37 @@
+﻿
+package principal;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author temporal2
+ */
+public class principal{
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner Spider = new Scanner(System.in);
+        // TODO code application logic here
+        double iCalifa;
+        iCalifa = Spider.nextDouble();
+        
+        if (iCalifa==100){
+            System.out.println("Sacates  A  karnal");
+            }else if(iCalifa>=90){
+                System.out.println("Sacates  B  karnal");
+            }else if(iCalifa>=80){
+            System.out.println("Sacates  C  karnal");
+           }else if(iCalifa>=70){
+               System.out.println("Sacates  D  karnal");
+           }else if (iCalifa>=60) && (iCalifa < 70);{
+               System.out.println("Sacates  F  karnal");
+               
+           }else {System.out.println("Número inválido");
+           }
+     
+    }
+    }
+    

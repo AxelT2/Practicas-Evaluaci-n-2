@@ -1,0 +1,14 @@
+print("Quieres pasar, a ver, ¿cuantos años tienes?")
+edad = int(input())
+while edad >= 100:
+    print("No estes de payaso, vuelvela a poner ")
+    edad = int(input())
+if edad >= 18:
+    print("¿Traes credencial? (si/no)")
+    cred = input()
+    if cred == "si":
+        print("A no pues asi sí, pasale karnal")
+    else:
+        print("Pues ahí te la encargo pa la siguiente, no?. Ya botate de aquí")
+else:
+    print("Mira que chistosito ni pa que te asomas por aquí, ya llegale de aquí")

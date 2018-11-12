@@ -1,0 +1,28 @@
+#include <iostream>
+#include <sstream>
+#include <string>
+#include <cstdlib>
+#include <cmath>
+
+using namespace std;
+
+// Headers
+string toString (double);
+int toInt (string);
+double toDouble (string);
+
+int main() {
+    bool materias;
+    bool servicio;
+    bool residencias;
+    
+    materias = true;
+    servicio = true;
+    residencias = true;
+    if (materias == true && servicio == true && residencias == true) {
+        cout << "Nombre, unos genios" << endl;
+    } else {
+        cout << "Tsssssss ya no te titulastes karnal" << endl;
+    }
+    return 0;
+}

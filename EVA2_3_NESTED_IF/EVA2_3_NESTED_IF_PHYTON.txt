@@ -1,0 +1,23 @@
+print("A ver tu califa")
+califa = float(input())
+while califa > 100:
+    print("No seas payaso, ponla bien")
+    califa = float(input())
+if califa == 100:
+    print("Sacastes  A  karnal")
+else:
+    if califa == 90:
+        print("Sacastes B karnal")
+    else:
+        if califa == 80:
+            print("Sacastes  C  karnal")
+        else:
+            if califa == 70:
+                print("Sacastes  D  karnal")
+                # print(Expression)
+            else:
+                if califa == 60:
+                    print("Sacastes F karnal")
+                    print("A ver si a la siguiente le echas más ganas")
+                else:
+                    print("Ah caray, pues que número pusiste? Vuelve a empezar")

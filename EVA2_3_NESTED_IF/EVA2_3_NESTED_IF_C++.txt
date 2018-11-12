@@ -1,0 +1,48 @@
+#include <iostream>
+#include <sstream>
+#include <string>
+#include <cstdlib>
+#include <cmath>
+
+using namespace std;
+
+// Headers
+string toString (double);
+int toInt (string);
+double toDouble (string);
+
+int main() {
+    cout << "A ver tu califa" << endl;
+    double califa;
+    
+    cin >> califa;
+    while (califa > 100) {
+        cout << "No seas payaso, ponla bien" << endl;
+        cin >> califa;
+    }
+    if (califa == 100) {
+        cout << "Sacastes  A  karnal" << endl;
+    } else {
+        if (califa == 90) {
+            cout << "Sacastes B karnal" << endl;
+        } else {
+            if (califa == 80) {
+                cout << "Sacastes  C  karnal" << endl;
+            } else {
+                if (califa == 70) {
+                    cout << "Sacastes  D  karnal" << endl;
+                    // cout << ?List? << endl;
+                } else {
+                    if (califa == 60) {
+                        cout << "Sacastes F karnal" << endl;
+                        cout << "A ver si a la siguiente le echas más ganas" << endl;
+                    } else {
+                        cout << "Ah caray, pues que número pusiste? Vuelve a empezar" << endl;
+                    }
+                }
+            }
+        }
+    }
+    return 0;
+}
+

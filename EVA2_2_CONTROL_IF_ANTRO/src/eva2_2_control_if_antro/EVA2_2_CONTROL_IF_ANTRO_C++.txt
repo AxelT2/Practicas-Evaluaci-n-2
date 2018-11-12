@@ -1,0 +1,38 @@
+#include <iostream>
+#include <sstream>
+#include <string>
+#include <cstdlib>
+#include <cmath>
+
+using namespace std;
+
+// Headers
+string toString (double);
+int toInt (string);
+double toDouble (string);
+
+int main() {
+    cout << "Quieres pasar, a ver, ¿cuantos años tienes?" << endl;
+    int edad;
+    
+    cin >> edad;
+    while (edad >= 100) {
+        cout << "No estes de payaso, vuelvela a poner " << endl;
+        cin >> edad;
+    }
+    if (edad >= 18) {
+        cout << "¿Traes credencial? (si/no)" << endl;
+        string cred;
+        
+        cin >> cred;
+        if (cred == "si") {
+            cout << "A no pues asi sí, pasale karnal" << endl;
+        } else {
+            cout << "Pues ahí te la encargo pa la siguiente, no?. Ya botate de aquí" << endl;
+        }
+    } else {
+        cout << "Mira que chistosito ni pa que te asomas por aquí, ya llegale de aquí" << endl;
+    }
+    return 0;
+}
+
